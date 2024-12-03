@@ -46,3 +46,5 @@ The client implementation is located in the `client` directory and includes:
 
 To run the server:
 
+gcc -o server_server Server_Socket.c
+./server_client <server_ip_address> <port_number>

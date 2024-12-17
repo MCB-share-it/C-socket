@@ -33,6 +33,7 @@ The server implementation is located in the `server` directory and includes:
 - Listening for incoming connections
 - Accepting multiple client connections
 - Receiving messages from clients and broadcasting them to all connected clients
+- (the port is already binded )
 
 ## Client Implementation
 
@@ -46,5 +47,7 @@ The client implementation is located in the `client` directory and includes:
 
 To run the server:
 
-gcc -o server_server Server_Socket.c
-./server_client <server_ip_address> <port_number>
+gcc -o server_server main.c
+
+do it for the server and the client
+
